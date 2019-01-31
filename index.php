@@ -3,6 +3,7 @@
 require_once 'app/helpers.php';
 start_session('boris');
 $title = 'AskMe | Home page';?>
+$blabla = 'blabla';
 
 <?php include 'tpl/header.php'; ?>
 
