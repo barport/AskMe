@@ -2,9 +2,11 @@
 
 require_once 'app/helpers.php';
 start_session('boris');
-$title = 'AskMe | Home page';?>
+$title = 'AskMe | Home page';
+$number = '';
+?>
 
-<?php include 'tpl/header.php'; ?>
+<?php include 'tpl/header.php';?>
 
 
 
@@ -26,7 +28,8 @@ $title = 'AskMe | Home page';?>
           </p>
         </div>
         <p>
-          <h1><a href="blog.php" class="button5 rounded font-weight-bold text-white animated fadeInUp" style="
+          <h1><a href="blog.php" class="button5 rounded font-weight-bold text-white animated fadeInUp"
+              style="
             background-color:#42cc8c;">Start
               Now</a></h1>
         </p>
@@ -35,4 +38,4 @@ $title = 'AskMe | Home page';?>
   </div>
 </main>
 
-<?php include 'tpl/footer.php'; ?>
+<?php include 'tpl/footer.php';?>

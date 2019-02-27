@@ -65,10 +65,8 @@ if(isset($_POST['submit'])) {
   <div class="container">
     <div class="row">
       <div class="col-12 pt-3">
-        <h3 class="text-white">Hey,
-          <?= $_SESSION['user_name']?>
-        </h3>
-        <h1 class="display-2 text-white">Ask A Question</h1>
+      
+        <h1 class="display-3 text-white">Edit Your Post</h1>
       </div>
     </div>
     <div class="row font">
