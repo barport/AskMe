@@ -2,9 +2,15 @@
 
 require_once 'app/helpers.php';
 start_session('boris');
+<<<<<<< HEAD
 $title = 'AskMe | Home page';
 $number = '';
 ?>
+=======
+$title = 'AskMe | Home page';?>
+$blabla = 'blabla';
+$another = 'blabla';
+>>>>>>> 07c24eeb90af535c64c1a754ebcb3ae65397906e
 
 <?php include 'tpl/header.php';?>
 
@@ -38,4 +44,8 @@ $number = '';
   </div>
 </main>
 
+<<<<<<< HEAD
 <?php include 'tpl/footer.php';?>
+=======
+<?php include 'tpl/footer.php'; ?>
+>>>>>>> 07c24eeb90af535c64c1a754ebcb3ae65397906e
